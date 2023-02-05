@@ -11,6 +11,26 @@ CLI interface to get Ransomware attacks data from ransomwhat.telemetry.ltd
  - Ability to list attack groups.
  - Ability to search the Ransomware attacks description (RegEx).
 
+### Dependancies
+`jq` is required to run this application.
+
+#### Ubuntu / Debian
+```bash
+sudo apt update
+sudo apt install jq
+```
+
+#### CentOS Stream (8/9)
+```bash
+sudo yum install jq
+```
+
+#### CentOS 7
+```bash
+sudo yum install epel-release
+sudo yum update
+sudo yum install jq
+```
 
 ### Install (Linux)
 
